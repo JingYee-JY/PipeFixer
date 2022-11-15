@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piper Fixer</title>
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css?family=Lilita One">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="start">
+        <div class="game-title">
+            <img class="title" src="./img/title.png">
+        </div>
+        <img class="preview" src="./img/preview.png">
+        <button class="startButton">
+            <p class="words"><img src="./img/arrow.png" class="arrowHead"> START GAME</p>
+        </button>
+    </div>
+    <div class="selection hide">
+        <div class="game-title">
+            <img class="title" src="./img/title.png">
+        </div>
+        <p class="text">Select difficulty</p>
+        <button class="easyButton">
+            <p class="words">Easy</p>
+        </button>
+        <button class="normalButton">
+            <p class="words">Normal</p>
+        </button>
+        <button class="hardButton">
+            <p class="words">Hard</p>
+        </button>
+    </div>
+    <div class="game hide">
+        <div class="number"></div>
+        <div class="instruction">Tap to fix 1 pipe.</div>
+        <div class="question">
+            <img class="image1">
+            <img class="image2">
+            <img class="image3">
+            <img class="image4">
+
+            <img class="image5">
+            <img class="image6">
+            <img class="image7">
+            <img class="image8">
+
+            <img class="image9">
+            <img class="image10">
+            <img class="image11">
+            <img class="image12">
+
+            <img class="image13">
+            <img class="image14">
+            <img class="image15">
+            <img class="image16">
+        </div>
+        <div class="popUp hide">
+            <div class="information">
+                <img class="image" src="./img/arm.png"></div>
+                <p class="end">Listen Closly!</p>
+        </div>
+    </div>
+    <div class="final hide">
+        <img class="emoji" src="./img/wellDone.png">
+        <p class="encouragment">Well Done!</p>
+        <button class="againButton">
+            <p class="words"><img src="./img/again.png" class="arrowHead">Play again</p>
+        </button>
+        <button class="homeButton">
+            <p class="words"><img src="./img/home.png" class="arrowHead">Back to home</p>
+        </button>
+    </div>
+
+    <audio id="click" src="sound/click.wav"></audio>
+    <audio id="clap" src="sound/clap.wav"></audio>
+
+<script src="./script.js"></script>
+</body>
+</html>
